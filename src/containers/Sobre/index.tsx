@@ -5,7 +5,7 @@ import { GitHubSecao } from './styles'
 const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre min</Titulo>
-    <Paragrafo tipo="secundario">
+    <Paragrafo tipo="principal">
       Olá, meu nome é Julio Cezar, sou estudante de programação e estou
       aprendendo React. Este é um projeto de portfólio onde estou aplicando os
       conhecimentos adquiridos até agora.
