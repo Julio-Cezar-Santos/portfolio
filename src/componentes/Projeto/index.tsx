@@ -13,7 +13,9 @@ const Projeto = ({ titulo, descricao, link }: Props) => (
   <Card>
     <Titulo>{titulo}</Titulo>
     <Paragrafo tipo="secundario">{descricao}</Paragrafo>
-    <LinkBotao href={link}>Visualizar</LinkBotao>
+    <LinkBotao href={link} target="_blank">
+      Visualizar
+    </LinkBotao>
   </Card>
 )
 

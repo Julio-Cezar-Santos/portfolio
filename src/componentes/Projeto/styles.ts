@@ -15,7 +15,6 @@ export const LinkBotao = styled.a`
   margin-top: 24px;
   display: inline-block;
   border-radius: 4px;
-  target: _blank;
   cursor: pointer;
   transition: transform 0.2s;
   &:hover {
